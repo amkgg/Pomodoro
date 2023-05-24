@@ -1,0 +1,74 @@
+/* Pomodoro by Amelia*/
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.15rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex; 
+    gap: 16px;
+    align-items: center;
+}
+
+button {
+    padding: 6px 20px;
+    border: 1px solid white;
+    border-radius: 16px;
+
+    background-color: transparent;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.1rem;
+}
+
+button:hover {
+    transition: all ease 100ms;
+    transform: scale(105%);
+}
+
+.active {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    font-weight: 500;
+    color: black;
+}
+
+#start-stop-btn {
+    background-color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+i {
+    padding: 6px;
+}
+
+i:hover {
+    transition: all ease 100ms;
+    transform: scale(110%);
+}
+
+#timer {
+    font-size: 10rem;
+    font-weight: 600;
+}
